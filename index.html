@@ -1,33 +1,52 @@
-<html>
-	<head>
-		<title>Koululaskin</title>
-		<style>
-			body, head {
-				background-image: url("https://i.pinimg.com/originals/55/0c/80/550c80a326b9d687b038b5f5f72b0724.jpg");
-				background-repeat: no-repeat;
-				background-attachment: fixed;
-				background-size: 100% 100%;
-			}
-			#n {
-				text-align: right;
-				width: 175%;
-				height: 85px;
-				font-size: 35px;
-				background-color: Transparent;
-				color: white;
-				border-radius: 5px;
-			}
-			.button {
-				cursor: pointer;
-				transition: background-color 0.5s ease-out;
-				color: 0.5s ease-out;
-				width: 134px;
-				height: 80px;
-				border-radius: 5px;
-				font-size: 20px;
-				background-color: Transparent;
-				color: white
-			}
-			.button:hover {
-				background-color: white;
-				color: black;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR | SAMIR </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Merriweather&family=Montserrat&family=Open+Sans&family=Protest+Guerrilla&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" placeholder="0" id="inputBox">
+        <div>
+            <button class="operator">AC</button>
+            <button class="operator">DEL</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
+        </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">*</button>
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
+        </div>
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="equalBtn">=</button>
+        </div>
+    </div>
+    
+    
+    
+    
+    <script src="calc.js"></script>
+</body>
+</html>
